@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+            tr td{
+                align: left;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(106, 189, 203);">
+      <form action="process_register.html"
+      method ="post">
+      <div align="center">
+        <image src="images/Jackson.gif">
+      </div>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <p style="text-align: center;">Register your Jackson Electronics product here</p>
+      <table align="center" border="0" width="1000",>
+        <tr>
+            <td>
+                First name:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" name="firstname" id="firstname">
+                Last name:
+                <input type="text" name="lastname" id="lastname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address #1:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" name="address1" id="address1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address #2:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" name="address2" id="address2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                City:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" name="city" id="city">
+                State:
+                <input type="text" name="state" id="state">
+                Zip:
+                <input type="text" name="zip" id="zip">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <hr style="border:1px solid #f8e348;"/>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Product:
+            </td>
+            <td>
+            </td>
+            <td>
+                <select name="product" id="product">
+                    <option value="tv">ScanMaster</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date Purchased:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="date" name="date_purchased" id="date_purchased ">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Serial #:
+            </td>
+            <td></td>
+            <td>
+                <input type="text" name="serial" id="serial">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Used for:
+            </td>
+            <td>
+                <table border="0">
+                    <tr>
+                        <td><input type="radio" name="used_for" value="home" id="used_for_home"><label for="used_for_home">Home</label></td>
+                        <td><input type="radio" name="used_for" value="education" id="used_for_education"><label for="used_for_education">Education Institution</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used_for" value="business" id="used_for_business"><label for="used_for_business">Business</label></td>
+                        <td><input type="radio" name="used_for" value="other" id="used_for_other"><label for="used_for_other">Other</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used_for" value="government" id="used_for_government"><label for="used_for_government">Government</label></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                System (Check all that apply):  
+            </td>
+            <td>
+                <table border="0">
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="system" value="windows" id="system_windows">
+                            <label for="system_windows">
+                                Windows
+                            </label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="system" value="unix" id="system_unix">
+                            <label for="system_unix">
+                                UNIX
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="system" value="macintosh" id="system_macintosh">
+                            <label for="system_macintosh">
+                                Macintosh
+                            </label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="system" value="other" id="system_other">
+                            <label for="system_other">
+                                Other
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <hr style="border:1px solid #f8e348;"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Comments?:
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="text" name="comments" id="comments" style="width: 100%; height: 150px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" value="Click to Register">
+                <input type="reset" value="Click to Cancel">
+        
+        </tr>
+      </table>
+      </form>
+    </body>
+</html>
